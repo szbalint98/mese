@@ -19,6 +19,9 @@ main {
 header {
   text-align: center;
 }
+nav{
+    padding-bottom: 15px;
+}
 nav ul {
   list-style: none;
   display: flex;
@@ -59,8 +62,17 @@ li a {
   width: 80px;
   text-align: center;
 }
-
-@media only screen and (max-width: 330px) {
+.kep{
+    margin: 10px;
+    
+}
+.kepekart{
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+@media only screen and (max-width: 350px) {
   nav ul {
     text-align: center;
     list-style: none;
@@ -68,6 +80,7 @@ li a {
     flex-direction: column;
   }
   nav ul li {
+    padding-bottom: 10px;
     text-align: center;
     margin: auto;
   }

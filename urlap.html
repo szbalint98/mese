@@ -1,49 +1,46 @@
 <!DOCTYPE html>
 <html lang="hu">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="description" content="Free Web tutorials" />
     <meta name="keywords" content="HTML, CSS, JavaScript" />
     <meta name="author" content="John Doe" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>Űrlap</title>
-</head>
-<body>
+  </head>
+  <body>
     <main>
-        <header>
-            <h1>Kérdőív</h1>
-        </header>
-        <nav>
-            <ul>
-                <li><a href="tortenet.html">Főoldal</a></li>
-                <li><a href="urlap.html">Kérdőív</a></li>
-            </ul>
-        </nav>
-        
-        <form  method="get">
-            <fieldset>
-                
-                        <label for="textfi">Kérem kifejtené néhány mondatban
-                            <br> a véleményét a történetről?</label>
+      <header>
+        <h1>Kérdőív</h1>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="tortenet.html">Főoldal</a></li>
+          <li><a href="urlap.html">Kérdőív</a></li>
+        </ul>
+      </nav>
 
-                        <textarea id="textfi" name="szoveg" >
-                            
-                        </textarea>
-                        <label for="fel">Felhasználónév:</label>
-                        <input type="text" id="fel" placeholder="Felhasználónév:"><br><br>
-                        <label for="jelsz">Jelszó:</label>
-                        <input type="text" id="jelsz" placeholder="Jelszó"><br><br>
-                        <label for="email">E-mail:</label>
-                        <input type="text" id="email" placeholder="E-mail:"><br><br>
-                        <input type="submit" value="Küldés">
+      <form method="get">
+        <fieldset>
+          <label for="textfi"
+            >Kérem kifejtené néhány mondatban<br/>
+            a véleményét a történetről?</label>
 
-
-
-
-
-            </fieldset>
-        </form>
+          <textarea id="textfi" name="szoveg"> </textarea>
+          <label for="fel">Felhasználónév:</label>
+          <input
+            type="text"
+            id="fel"
+            placeholder="Felhasználónév:"
+          /><br /><br />
+          <label for="jelsz">Jelszó:</label>
+          <input type="text" id="jelsz" placeholder="Jelszó" /><br /><br />
+          <label for="email">E-mail:</label>
+          <input type="text" id="email" placeholder="E-mail:" /><br /><br />
+          <input type="submit" value="Küldés" />
+        </fieldset>
+      </form>
     </main>
-</body>
+  </body>
 </html>
