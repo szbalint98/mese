@@ -24,10 +24,18 @@
       <form method="get">
         <fieldset>
           <label for="textfi"
-            >Kérem kifejtené néhány mondatban<br/>
-            a véleményét a történetről?</label>
+            >Kifejtené néhány mondatban a véleményét a történetről?</label
+          >
 
           <textarea id="textfi" name="szoveg"> </textarea>
+            <label for="ferfi">Neme:</label>
+          
+            <label for="">Férfi</label>
+            <input type="radio" name="rad" id="ferfi" />
+            <label for="">Nő</label>
+            <input type="radio" name="rad" id="no" /><br /><br>
+          
+
           <label for="fel">Felhasználónév:</label>
           <input
             type="text"
@@ -41,6 +49,7 @@
           <input type="submit" id="kuld" value="Küldés" />
         </fieldset>
       </form>
+      <footer></footer>
     </main>
   </body>
 </html>

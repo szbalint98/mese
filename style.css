@@ -80,9 +80,8 @@ li a {
     margin: 10px;
     
 }
+
 .kepekart{
-    text-align: center;
-    margin: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
