@@ -10,7 +10,7 @@ body{
 main{
     width: 70%;
     margin: auto;
-    background-color: rgb(252, 247, 242);
+    background-color: rgb(242, 247, 243);
     height: 100vh;
     margin-top: 30px;
     padding: 18px;
@@ -47,4 +47,46 @@ li a{
     font-weight: bold;
     width: 80px;
     text-align: center;
+}
+@media only screen and (max-width: 500px) {
+    fieldset{
+    background-color: rgb(69, 231, 236);
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 130px;
+    padding: 10px;
+    border-radius: 15pt;
+}
+  }
+  @media only screen and (max-width: 375px) {
+    fieldset{
+    background-color: rgb(69, 231, 236);
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 130px;
+    padding: 10px;
+    border-radius: 15pt;
+}
+  }
+
+@media only screen and (max-width: 311px) {
+  fieldset{
+  background-color: rgb(69, 231, 236);
+  margin-top: 20px;
+  margin-left: 0;
+  margin-right: 130px;
+  padding: 10px;
+  border-radius: 15pt;
+}
+
+nav ul{
+    text-align: center;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+nav ul li{
+    text-align: center;
+    margin: auto;
+}
 }
