@@ -42,6 +42,9 @@ fieldset {
   padding: 2px;
   float: right;
 }
+img{
+    border-radius: 9pt;
+}
 #kuld{
     border-radius: 5pt;
     padding: 2px;
